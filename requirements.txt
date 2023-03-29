@@ -1,5 +1,4 @@
-sklearn.feature_extraction.text
+sklearn
 pandas
-sklearn.metrics.pairwise
 numpy
 re
