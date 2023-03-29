@@ -1,14 +1,3 @@
-from typing import Union
-import json
-from fastapi import FastAPI
-import tensorflow.compat.v1 as tf
-tf.disable_v2_behavior()
-from sklearn.metrics.pairwise import cosine_similarity
-import tensorflow_hub as hub
-import numpy as np
-import pandas as pd
-
-
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
