@@ -1,0 +1,51 @@
+Sno,Section,Offence,Punishment
+0,"[""121 IPC""]","Waging or attempting to wage war or abetting the waging of war, against the Government of India.","Death, or imprisonment for life and fine."
+1,"[""121A IPC""]",Conspiring to commit certain offences against the State.,"Imprisonment for life, or imprisonment for 10 years and fine."
+2,"[""122 IPC""]","Collecting arms, etc., with the intention of waging war against the Government of India.","Imprisonment for life, or imprisonment for 10 years and fine."
+3,"[""123 IPC""]",Concealing with intent to facilitate a design to wage war.,Imprisonment for 10 years and fine.
+4,"[""124 IPC""]","Assaulting President, Governor, etc., with intent to compel or restrain the exercise of any lawful power",Imprisonment for 7 years and fine.
+5,"[""124A IPC""]",Sedition,"Imprisonment for life and fine, or imprisonment for 3 years and fine, or fine."
+6,"[""125 IPC""]","Waging war against any Asiatic power in alliance or at peace with the Government of India, or abetting the waging of such war.","Imprisonment for life and fine, or imprisonment for 7 years and fine, or fine."
+7,"[""126 IPC""]",Committing depredation on the territories of any power in alliance or at peace with the Government of India.,"Imprisonment for 7 years and fine, and forfeiture of certain property"
+8,"[""127 IPC""]",Receiving property taken by war or depredation mentioned in sections 125 and 126.,"Imprisonment for 7 years and fine, and forfeiture of certain property"
+9,"[""128 IPC""]",Public servant voluntarily allowing prisoner of State or war in his custody to escape.,"Imprisonment for life, or imprisonment for 10 years and fine."
+10,"[""129 IPC""]",Public servant negligently suffering prisoner of State of war in his custody to escape.,Simple imprisonment for 3 years and fine.
+11,"[""130 IPC""]","Aiding escape of rescuing or harbouring, such prisoner, or offering any resistance to the recapture of such prisoner.","Imprisonment for life, or imprisonment for 10 years and fine."
+12,"[""131 IPC""]","Abetting mutiny, or attempting to seduce an officer, soldier, sailor or airman from his allegiance or duty.","Imprisonment for life, or imprisonment for 10 years and fine."
+13,"[""132 IPC""]","Abetment of mutiny, if mutiny is committed in consequence thereof.","Death, or imprisonment for life, or imprisonment for 10 years and fine."
+14,"[""133 IPC""]","Abetment of an assault by an officer, soldier, sailor or airman on his superior officer, when in the execution of his office.",Imprisonment for 3 years and fine.
+15,"[""134 IPC""]","Abetment of such assault, if the assault is committed",Imprisonment for 7 years and fine.
+16,"[""135 IPC""]","Abetment of the desertion of an officer, soldier, sailor or airman.","Imprisonment for 2 years, or fine, or both"
+17,"[""136 IPC""]","Harbouring such an officer, soldier, sailor or airman who has deserted.","Imprisonment for 2 years, or fine, or both"
+18,"[""137 IPC""]","Deserter concealed on board merchant vessel, through negligence of master or person in charge thereof.",Fine of 500 rupees
+19,"[""138 IPC""]","Abetment of act of in subordination by an officer, soldier, sailor or airman, if the offence be committed in consequence.","Imprisonment for 6 months, or fine, or both."
+20,"[""140 IPC""]","Wearing the dress or carrying any token used by a soldier, sailor or airman with intent that it may be believed that he is such a soldier, sailor or airman.","Imprisonment for 3 months, or fine of 500 rupees, or both."
+21,"[""143 IPC""]",Being member of an unlawful assembly.,"Imprisonment for 6 months, or fine, or both."
+22,"[""144 IPC""]",Joining an unlawful assembly armed with any deadly weapon.,"Imprisonment for 2 years, or fine, or both"
+23,"[""145 IPC""]","Joining or continuing in an unlawful assembly, knowing that it has been committed to disperse.","Imprisonment for 2 years, or fine, or both"
+24,"[""147 IPC""]",Rioting,"Imprisonment for 2 years, or fine, or both"
+25,"[""148 IPC""]",Rioting armed with a deadly weapon.,"Imprisonment for 3 years, or fine, or both."
+26,"[""149 IPC""]","If an offence be committed by any member of an unlawful assembly, every other member of such assembly shall be guilty of the offence.",The same as for the offence
+27,"[""150 IPC""]","Hiring, engaging or employing persons to take part in an unlawful assembly.","The same as for a member of such assembly, and for any offence committed by any member of such assembly."
+28,"[""151 IPC""]",Knowingly joining or continuing in any assembly of five or more persons after it has been commanded to disperse.,"Imprisonment for 6 months, or fine, or both."
+29,"[""152 IPC""]","Assaulting or obstructing public servant when suppressing riot, etc.","Imprisonment for 3 years, or fine, or both."
+30,"[""153 IPC""]","Wantonly giving provocation with intent to cause riot, if rioting be committed.","Imprisonment for 1 year, or fine, or both."
+31,"[""153A IPC""]",Promoting enmity between classes,"Imprisonment for 3 years, or fine, or both."
+32,"[""153B IPC""]","Imputations, assertions prejudicial to national integration.","Imprisonment for 5 years, or fine, or both."
+33,"[""154 IPC""]","Owner of occupier of land not giving information of riot, etc.","Imprisonment for 5 years, or fine, or both"
+34,"[""155 IPC""]",Person for whose benefit or on whose behalf a riot takes place not using all lawful means to prevent it.,"Fine of 1,000 rupees"
+35,"[""156 IPC""]",Agent of owner or occupier for whose benefit a riot is committed not using all lawful means to prevent it.,Fine
+36,"[""157 IPC""]",Harbouring persons hired for an unlawful assembly,"Imprisonment for 6 months, or fine, or both"
+37,"[""158 IPC""]",Being hired to take part in an unlawful assembly or riot.,"Imprisonment for 6 months, or fine, or both"
+38,"[""159 IPC""]",Or to go armed,"Imprisonment for 2 years, or fine or both"
+39,"[""160 IPC""]",Committing affray,"Imprisonment for one month, or fine of 100 rupees, or both"
+40,"[""302 IPC""]",Murder,"Death, or imprisonmentfor life, and fine"
+41,"[""303 IPC""]",Murder by a person under sentence of imprisonment for life.,"Death, or imprisonmentfor life, and fine"
+42,"[""304 IPC""]","Culpable homicide not amounting to murder, if act by which the death is caused is done with intention of causing death, etc.","Imprisonment for 2 years or fine, or both."
+43,"[""304A IPC""]",Causing death by rash or negligence act.,Imprisonment of not less than seven years but which may extend to imprisonment for life.
+44,"[""304B IPC""]",Dowry death,"Death, or imprisonment for life, or imprisonment for 10 years and fine."
+45,"[""305 IPC""]","Abetment of suicide committed by child, or insane or delirious person or an idiot, or a person intoxicated.",Imprisonment for 10 years and fine
+46,"[""306 IPC""]",Abetting the commission of suicide,Imprisonment for 10 years and fine
+47,"[""307 IPC""]",Attempt to murder,"Imprisonment for life, or imprisonment for 10 years and fine."
+48,"[""308 IPC""]",Attempt to commit culpable homicide.,"Imprisonment for 3 years, or fine, or both."
+49,"[""309 IPC""]",Attempt to commit suicide,"Simple imprisonment for 1 year, or fine, or both."
