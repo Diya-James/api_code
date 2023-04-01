@@ -6,28 +6,17 @@ import re
 from fastapi import FastAPI
 import json
 from fastapi.middleware.cors import CORSMiddleware
-app = FastAPI()
 
+from flask import Flask
+from flask import request, jsonify
+from flask_cors import CORS
 
-origins = [
-    "http://localhost.tiangolo.com",
-    "https://localhost.tiangolo.com",
-    "http://localhost",
-    "http://localhost:8080",
-]
+app = Flask(__name__)
+CORS(app)
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-
-@app.get("/")
-async def main():
-    return {"message": "Hello World"}
+@app.route("/")
+def helloWorld():
+  return "Hello, cross-origin-world!"
 
 
 
@@ -40,18 +29,20 @@ def clean_offence(offence):
 
   return offence
 
-@app.get("/title/{title_id}")
-def read_root(title_id: str):
-    ipc = pd.read_csv("ipc_data.csv")
-    vectorizer = TfidfVectorizer(ngram_range=(1,2))
-    ipc["clean_offence"] = ipc["Offence"].apply(clean_offence)
-    tfidf = vectorizer.fit_transform(ipc["clean_offence"])
-    query_vec = vectorizer.transform([title_id])
-    similarity = cosine_similarity(query_vec, tfidf).flatten()
-    indices = np.argpartition(similarity, -3)[-3:]
-    results = ipc.iloc[indices].iloc[::-1].to_json(orient="records")
-    parsed = json.loads(results)
-    return parsed
+@app.route('/api', methods=['GET'])
+def read_root():
+    if 'url' in request.args:
+      title_id = str(request.args['url'])
+      ipc = pd.read_csv("ipc_data.csv")
+      vectorizer = TfidfVectorizer(ngram_range=(1,2))
+      ipc["clean_offence"] = ipc["Offence"].apply(clean_offence)
+      tfidf = vectorizer.fit_transform(ipc["clean_offence"])
+      query_vec = vectorizer.transform([title_id])
+      similarity = cosine_similarity(query_vec, tfidf).flatten()
+      indices = np.argpartition(similarity, -3)[-3:]
+      results = ipc.iloc[indices].iloc[::-1].to_json(orient="records")
+      parsed = json.loads(results)
+      return parsed
 
 # @app.get("/items/{item_id}")
 # def read_item(item_id: int, q: Union[str, None] = None):
